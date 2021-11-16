@@ -54,7 +54,7 @@
         "bastionSubnetName": "AzureBastionSubnet",
         "vNetBastionSubnetAddressPrefix": "10.0.1.0/24",
         "bastionPublicIPAddressName": "[concat(parameters('projectName'),'-bastionPublicIP')]",
-        "vmStorageAccountType": "Standard_HDD"
+        "vmStorageAccountType": "Standard_LRS"
     },
     "resources": [
         {
